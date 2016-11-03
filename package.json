@@ -4,5 +4,8 @@
   "description": "Lists of useful links and resources for front-end developers.",
   "main": "index.js",
   "author": "David Ra Youssef <davidradeveloper@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
 }
