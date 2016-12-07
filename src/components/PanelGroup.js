@@ -10,6 +10,7 @@ const PanelGroup = ({ data }) => {
           key={panel.name}
           heading={panel.heading}
           name={panel.name}
+          icon={panel.icon}
           links={panel.links}
         />
       );

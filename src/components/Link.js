@@ -1,9 +1,10 @@
 import React from 'react';
+import icons from './icons/IconModule';
 
-const Link = ({ name, thumbnail, url }) => {
+const Link = ({ name, thumbnail, defaultIcon, url }) => {
   return (
     <a href={url}>
-      <img src={thumbnail} />
+      {thumbnail ? <img src={thumbnail} /> : icons[defaultIcon] }
       <span className="title">{name}</span>
     </a>
   );

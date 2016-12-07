@@ -1,54 +1,7 @@
 export const data = [
   {
-    "name": "Youtube Channels",
-    "icon": "",
-    "heading": "Watch...",
-    "links": [
-      {
-        "name": "Wes Bos",
-        "thumbnail": "https://yt3.ggpht.com/-E0Ej_rdX5Ic/AAAAAAAAAAI/AAAAAAAAAAA/kskO1deXSNs/s100-c-k-no-mo-rj-c0xffffff/photo.jpg",
-        "url": "https://www.youtube.com/user/wesbos/videos"
-      },
-      {
-        "name": "funfunfunction",
-        "thumbnail": "https://yt3.ggpht.com/-5ny40r8qe90/AAAAAAAAAAI/AAAAAAAAAAA/IrloZ_OeiYc/s100-c-k-no-mo-rj-c0xffffff/photo.jpg",
-        "url": "https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q/videos"
-      },
-      {
-        "name": "LearnCode.academy",
-        "thumbnail": "https://yt3.ggpht.com/-mW8hwFBRUNs/AAAAAAAAAAI/AAAAAAAAAAA/jVL9TZ64o7A/s100-c-k-no-mo-rj-c0xffffff/photo.jpg",
-        "url": "https://www.youtube.com/user/learncodeacademy/videos"
-      },
-      {
-        "name": "LevelUpTuts",
-        "thumbnail": "https://yt3.ggpht.com/-MogFBYbYHgM/AAAAAAAAAAI/AAAAAAAAAAA/8e-NkR3Q1LE/s100-c-k-no-mo-rj-c0xffffff/photo.jpg",
-        "url": "https://www.youtube.com/user/LevelUpTuts/videos"
-      },
-      {
-        "name": "Bocoup LLC",
-        "thumbnail": "https://i.ytimg.com/i/QUPI1PxfE4-bqwuI26I2HA/mq1.jpg?v=51103bcb",
-        "url": "https://www.youtube.com/user/BocoupLLC/videos"
-      },
-      {
-        "name": "CSS-Tricks",
-        "thumbnail": "https://yt3.ggpht.com/-h7mfjiwQFZo/AAAAAAAAAAI/AAAAAAAAAAA/f0Iw26gcn7w/s100-c-k-no-mo-rj-c0xffffff/photo.jpg",
-        "url": "https://www.youtube.com/user/realcsstricks/videos"
-      },
-      {
-        "name": "ReactCasts",
-        "thumbnail": "https://yt3.ggpht.com/-KA7RKBT2PHk/AAAAAAAAAAI/AAAAAAAAAAA/hsAkoB2JT4U/s100-c-k-no-mo-rj-c0xffffff/photo.jpg",
-        "url": "https://www.youtube.com/channel/UCZkjWyyLvzWeoVWEpRemrDQ/videos"
-      },
-      {
-        "name": "readthesource",
-        "thumbnail": "https://yt3.ggpht.com/-5pcsTtjX9lQ/AAAAAAAAAAI/AAAAAAAAAAA/386MrHky1_0/s100-c-k-no-mo-rj-c0xffffff/photo.jpg",
-        "url": "https://www.youtube.com/user/readthesource/videos"
-      }
-    ]
-  },
-  {
     "name": "Podcasts",
-    "icon": "",
+    "icon": "podcast",
     "heading": "Listen to...",
     "links": [
       {
@@ -69,8 +22,62 @@ export const data = [
     ]
   },
   {
+    "name": "Code Courses",
+    "icon": "codecourse",
+    "heading": "Learn at...",
+    "links": [
+      {
+        "name": "Code School",
+        "thumbnail": "https://www.codeschool.com/assets/pages/brand/downloads/brand-mark-47100518b9ef3c7d41cb081576451d74f8ce24b4cc6f7948cb6913f84da3072d.png",
+        "url": "https://www.codeschool.com/"
+      },
+      {
+        "name": "Pluralsight",
+        "thumbnail": null,
+        "url": "https://www.pluralsight.com/"
+      },
+      {
+        "name": "egghead.io",
+        "thumbnail": "https://d1xwtr0qwr70yv.cloudfront.net/assets/elements/logo-mobile-0012236aa1a9766db6b0cc9705df19ec.svg",
+        "url": "https://egghead.io/courses"
+      },
+      {
+        "name": "Front End Masters",
+        "thumbnail": null,
+        "url": "https://frontendmasters.com/"
+      }
+    ]
+  },
+  {
+    "name": "Coding Challenges",
+    "icon": "codingchallenge",
+    "heading": "Practice at...",
+    "links": [
+      {
+        "name": "Codewars",
+        "thumbnail": "https://www.codewars.com/assets/logos/logo-square-red-big-dc2f35502ee2b60882a41327c529521c.png",
+        "url": "http://www.codewars.com/"
+      },
+      {
+        "name": "Hackerrank",
+        "thumbnail": "http://blog.hackerrank.com/wp-content/uploads/2016/03/logo_icon_1501.png",
+        "url": "https://www.hackerrank.com/"
+      },
+      {
+        "name": "freeCodeCamp",
+        "thumbnail": "",
+        "url": "https://www.freecodecamp.com/map"
+      },
+      {
+        "name": "leetcode",
+        "thumbnail": null,
+        "url": "https://leetcode.com"
+      }
+    ]
+  },
+  {
     "name": "Reddit Subreddits",
-    "icon": "",
+    "icon": "reddit",
     "heading": "Subscribe to...",
     "links": [
       {
@@ -122,7 +129,7 @@ export const data = [
   },
   {
     "name": "Twitter Accounts",
-    "icon": "",
+    "icon": "twitter",
     "heading": "Follow...",
     "links": [
       {
@@ -194,7 +201,7 @@ export const data = [
   },
   {
     "name": "Email newsletters",
-    "icon": "",
+    "icon": "email",
     "heading": "Sign up to...",
     "links": [
       {
@@ -240,56 +247,49 @@ export const data = [
     ]
   },
   {
-    "name": "Code Courses",
-    "icon": "",
-    "heading": "Learn at...",
+    "name": "Youtube Channels",
+    "icon": "youtube",
+    "heading": "Watch...",
     "links": [
       {
-        "name": "Code School",
-        "thumbnail": "https://www.codeschool.com/assets/pages/brand/downloads/brand-mark-47100518b9ef3c7d41cb081576451d74f8ce24b4cc6f7948cb6913f84da3072d.png",
-        "url": "https://www.codeschool.com/"
+        "name": "Wes Bos",
+        "thumbnail": "https://yt3.ggpht.com/-E0Ej_rdX5Ic/AAAAAAAAAAI/AAAAAAAAAAA/kskO1deXSNs/s100-c-k-no-mo-rj-c0xffffff/photo.jpg",
+        "url": "https://www.youtube.com/user/wesbos/videos"
       },
       {
-        "name": "Pluralsight",
-        "thumbnail": null,
-        "url": "https://www.pluralsight.com/"
+        "name": "funfunfunction",
+        "thumbnail": "https://yt3.ggpht.com/-5ny40r8qe90/AAAAAAAAAAI/AAAAAAAAAAA/IrloZ_OeiYc/s100-c-k-no-mo-rj-c0xffffff/photo.jpg",
+        "url": "https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q/videos"
       },
       {
-        "name": "egghead.io",
-        "thumbnail": "https://d1xwtr0qwr70yv.cloudfront.net/assets/elements/logo-mobile-0012236aa1a9766db6b0cc9705df19ec.svg",
-        "url": "https://egghead.io/courses"
+        "name": "LearnCode.academy",
+        "thumbnail": "https://yt3.ggpht.com/-mW8hwFBRUNs/AAAAAAAAAAI/AAAAAAAAAAA/jVL9TZ64o7A/s100-c-k-no-mo-rj-c0xffffff/photo.jpg",
+        "url": "https://www.youtube.com/user/learncodeacademy/videos"
       },
       {
-        "name": "Front End Masters",
-        "thumbnail": "https://frontendmasters.com/wp-content/themes/frontendmasters/assets/v1.1/images/workshop/logo-frontendmasters.png",
-        "url": "https://frontendmasters.com/"
-      }
-    ]
-  },
-  {
-    "name": "Coding Challenges",
-    "icon": "",
-    "heading": "Practice at...",
-    "links": [
-      {
-        "name": "Codewars",
-        "thumbnail": "https://www.codewars.com/assets/logos/logo-square-red-big-dc2f35502ee2b60882a41327c529521c.png",
-        "url": "http://www.codewars.com/"
+        "name": "LevelUpTuts",
+        "thumbnail": "https://yt3.ggpht.com/-MogFBYbYHgM/AAAAAAAAAAI/AAAAAAAAAAA/8e-NkR3Q1LE/s100-c-k-no-mo-rj-c0xffffff/photo.jpg",
+        "url": "https://www.youtube.com/user/LevelUpTuts/videos"
       },
       {
-        "name": "Hackerrank",
-        "thumbnail": "http://blog.hackerrank.com/wp-content/uploads/2016/03/logo_icon_1501.png",
-        "url": "https://www.hackerrank.com/"
+        "name": "Bocoup LLC",
+        "thumbnail": "https://i.ytimg.com/i/QUPI1PxfE4-bqwuI26I2HA/mq1.jpg?v=51103bcb",
+        "url": "https://www.youtube.com/user/BocoupLLC/videos"
       },
       {
-        "name": "freeCodeCamp",
-        "thumbnail": "",
-        "url": "https://www.freecodecamp.com/map"
+        "name": "CSS-Tricks",
+        "thumbnail": "https://yt3.ggpht.com/-h7mfjiwQFZo/AAAAAAAAAAI/AAAAAAAAAAA/f0Iw26gcn7w/s100-c-k-no-mo-rj-c0xffffff/photo.jpg",
+        "url": "https://www.youtube.com/user/realcsstricks/videos"
       },
       {
-        "name": "leetcode",
-        "thumbnail": null,
-        "url": "https://leetcode.com"
+        "name": "ReactCasts",
+        "thumbnail": "https://yt3.ggpht.com/-KA7RKBT2PHk/AAAAAAAAAAI/AAAAAAAAAAA/hsAkoB2JT4U/s100-c-k-no-mo-rj-c0xffffff/photo.jpg",
+        "url": "https://www.youtube.com/channel/UCZkjWyyLvzWeoVWEpRemrDQ/videos"
+      },
+      {
+        "name": "readthesource",
+        "thumbnail": "https://yt3.ggpht.com/-5pcsTtjX9lQ/AAAAAAAAAAI/AAAAAAAAAAA/386MrHky1_0/s100-c-k-no-mo-rj-c0xffffff/photo.jpg",
+        "url": "https://www.youtube.com/user/readthesource/videos"
       }
     ]
   }
