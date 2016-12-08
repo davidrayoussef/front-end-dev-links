@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from './Link';
+import LinkItem from './LinkItem';
 import icons from './icons/IconModule';
 
 const Panel = ({heading, name, icon, links}) => {
@@ -17,7 +17,7 @@ const Panel = ({heading, name, icon, links}) => {
       <ul className="links-container">
         {links.map(link => {
           return (
-            <Link
+            <LinkItem
               key={link.name}
               name={link.name}
               defaultIcon={icon}
