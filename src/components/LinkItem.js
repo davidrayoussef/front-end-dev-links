@@ -1,7 +1,7 @@
 import React from 'react';
 import icons from './icons/IconModule';
 
-const Link = ({ name, thumbnail, defaultIcon, url }) => {
+const LinkItem = ({ name, thumbnail, defaultIcon, url }) => {
   return (
     <a href={url}>
       {thumbnail ? <img src={thumbnail} /> : icons[defaultIcon] }
@@ -10,4 +10,4 @@ const Link = ({ name, thumbnail, defaultIcon, url }) => {
   );
 }
 
-export default Link;
+export default LinkItem;
