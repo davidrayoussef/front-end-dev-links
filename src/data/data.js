@@ -3,6 +3,7 @@ export const data = [
     "name": "Podcasts",
     "icon": "podcast",
     "heading": "Listen to...",
+    "color": "46, 204, 113",
     "links": [
       {
         "name": "JavaScript Jabber",
@@ -25,6 +26,7 @@ export const data = [
     "name": "Code Courses",
     "icon": "codecourse",
     "heading": "Learn at...",
+    "color": "241, 196, 15",
     "links": [
       {
         "name": "Code School",
@@ -49,9 +51,58 @@ export const data = [
     ]
   },
   {
+    "name": "Youtube Channels",
+    "icon": "youtube",
+    "heading": "Watch...",
+    "color": "205,32,31",
+    "links": [
+      {
+        "name": "Wes Bos",
+        "thumbnail": "https://yt3.ggpht.com/-E0Ej_rdX5Ic/AAAAAAAAAAI/AAAAAAAAAAA/kskO1deXSNs/s100-c-k-no-mo-rj-c0xffffff/photo.jpg",
+        "url": "https://www.youtube.com/user/wesbos/videos"
+      },
+      {
+        "name": "funfunfunction",
+        "thumbnail": "https://yt3.ggpht.com/-5ny40r8qe90/AAAAAAAAAAI/AAAAAAAAAAA/IrloZ_OeiYc/s100-c-k-no-mo-rj-c0xffffff/photo.jpg",
+        "url": "https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q/videos"
+      },
+      {
+        "name": "LearnCode.academy",
+        "thumbnail": "https://yt3.ggpht.com/-mW8hwFBRUNs/AAAAAAAAAAI/AAAAAAAAAAA/jVL9TZ64o7A/s100-c-k-no-mo-rj-c0xffffff/photo.jpg",
+        "url": "https://www.youtube.com/user/learncodeacademy/videos"
+      },
+      {
+        "name": "LevelUpTuts",
+        "thumbnail": "https://yt3.ggpht.com/-MogFBYbYHgM/AAAAAAAAAAI/AAAAAAAAAAA/8e-NkR3Q1LE/s100-c-k-no-mo-rj-c0xffffff/photo.jpg",
+        "url": "https://www.youtube.com/user/LevelUpTuts/videos"
+      },
+      {
+        "name": "Bocoup LLC",
+        "thumbnail": "https://i.ytimg.com/i/QUPI1PxfE4-bqwuI26I2HA/mq1.jpg?v=51103bcb",
+        "url": "https://www.youtube.com/user/BocoupLLC/videos"
+      },
+      {
+        "name": "CSS-Tricks",
+        "thumbnail": "https://yt3.ggpht.com/-h7mfjiwQFZo/AAAAAAAAAAI/AAAAAAAAAAA/f0Iw26gcn7w/s100-c-k-no-mo-rj-c0xffffff/photo.jpg",
+        "url": "https://www.youtube.com/user/realcsstricks/videos"
+      },
+      {
+        "name": "ReactCasts",
+        "thumbnail": "https://yt3.ggpht.com/-KA7RKBT2PHk/AAAAAAAAAAI/AAAAAAAAAAA/hsAkoB2JT4U/s100-c-k-no-mo-rj-c0xffffff/photo.jpg",
+        "url": "https://www.youtube.com/channel/UCZkjWyyLvzWeoVWEpRemrDQ/videos"
+      },
+      {
+        "name": "readthesource",
+        "thumbnail": "https://yt3.ggpht.com/-5pcsTtjX9lQ/AAAAAAAAAAI/AAAAAAAAAAA/386MrHky1_0/s100-c-k-no-mo-rj-c0xffffff/photo.jpg",
+        "url": "https://www.youtube.com/user/readthesource/videos"
+      }
+    ]
+  },
+  {
     "name": "Coding Challenges",
     "icon": "codingchallenge",
     "heading": "Practice at...",
+    "color": "41, 128, 185",
     "links": [
       {
         "name": "Codewars",
@@ -79,6 +130,7 @@ export const data = [
     "name": "Reddit Subreddits",
     "icon": "reddit",
     "heading": "Subscribe to...",
+    "color": "255,69,0",
     "links": [
       {
         "name": "/r/angularjs",
@@ -128,9 +180,57 @@ export const data = [
     ]
   },
   {
+    "name": "Email newsletters",
+    "icon": "email",
+    "heading": "Sign up to...",
+    "links": [
+      {
+        "name": "JavaScript Weekly",
+        "thumbnail": null,
+        "url": "http://javascriptweekly.com/"
+      },
+      {
+        "name": "Front End Focus",
+        "thumbnail": null,
+        "url": "http://frontendfocus.co/"
+      },
+      {
+        "name": "Mobile Web Weekly",
+        "thumbnail": null,
+        "url": "http://mobilewebweekly.co/"
+      },
+      {
+        "name": "React Status",
+        "thumbnail": null,
+        "url": "http://react.statuscode.com/latest"
+      },
+      {
+        "name": "This Week in React",
+        "thumbnail": null,
+        "url": "https://thisweekinreact.com/latest"
+      },
+      {
+        "name": "Node Weekly",
+        "thumbnail": null,
+        "url": "http://nodeweekly.com/"
+      },
+      {
+        "name": "ng-newsletter",
+        "thumbnail": null,
+        "url": "http://cur.ng-newsletter.com/"
+      },
+      {
+        "name": "React Newsletter",
+        "thumbnail": null,
+        "url": "http://reactjsnewsletter.com/"
+      }
+    ]
+  },
+  {
     "name": "Twitter Accounts",
     "icon": "twitter",
     "heading": "Follow...",
+    "color": "85,172,238",
     "links": [
       {
         "name": "Dan Abramov",
@@ -196,100 +296,6 @@ export const data = [
         "name": "Umar Hansa",
         "thumbnail": "https://pbs.twimg.com/profile_images/506129464405663744/kUMAxdaf_bigger.jpeg",
         "url": "https://twitter.com/umaar"
-      }
-    ]
-  },
-  {
-    "name": "Email newsletters",
-    "icon": "email",
-    "heading": "Sign up to...",
-    "links": [
-      {
-        "name": "JavaScript Weekly",
-        "thumbnail": null,
-        "url": "http://javascriptweekly.com/"
-      },
-      {
-        "name": "Front End Focus",
-        "thumbnail": null,
-        "url": "http://frontendfocus.co/"
-      },
-      {
-        "name": "Mobile Web Weekly",
-        "thumbnail": null,
-        "url": "http://mobilewebweekly.co/"
-      },
-      {
-        "name": "React Status",
-        "thumbnail": null,
-        "url": "http://react.statuscode.com/latest"
-      },
-      {
-        "name": "This Week in React",
-        "thumbnail": null,
-        "url": "https://thisweekinreact.com/latest"
-      },
-      {
-        "name": "Node Weekly",
-        "thumbnail": null,
-        "url": "http://nodeweekly.com/"
-      },
-      {
-        "name": "ng-newsletter",
-        "thumbnail": null,
-        "url": "http://cur.ng-newsletter.com/"
-      },
-      {
-        "name": "React Newsletter",
-        "thumbnail": null,
-        "url": "http://reactjsnewsletter.com/"
-      }
-    ]
-  },
-  {
-    "name": "Youtube Channels",
-    "icon": "youtube",
-    "heading": "Watch...",
-    "links": [
-      {
-        "name": "Wes Bos",
-        "thumbnail": "https://yt3.ggpht.com/-E0Ej_rdX5Ic/AAAAAAAAAAI/AAAAAAAAAAA/kskO1deXSNs/s100-c-k-no-mo-rj-c0xffffff/photo.jpg",
-        "url": "https://www.youtube.com/user/wesbos/videos"
-      },
-      {
-        "name": "funfunfunction",
-        "thumbnail": "https://yt3.ggpht.com/-5ny40r8qe90/AAAAAAAAAAI/AAAAAAAAAAA/IrloZ_OeiYc/s100-c-k-no-mo-rj-c0xffffff/photo.jpg",
-        "url": "https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q/videos"
-      },
-      {
-        "name": "LearnCode.academy",
-        "thumbnail": "https://yt3.ggpht.com/-mW8hwFBRUNs/AAAAAAAAAAI/AAAAAAAAAAA/jVL9TZ64o7A/s100-c-k-no-mo-rj-c0xffffff/photo.jpg",
-        "url": "https://www.youtube.com/user/learncodeacademy/videos"
-      },
-      {
-        "name": "LevelUpTuts",
-        "thumbnail": "https://yt3.ggpht.com/-MogFBYbYHgM/AAAAAAAAAAI/AAAAAAAAAAA/8e-NkR3Q1LE/s100-c-k-no-mo-rj-c0xffffff/photo.jpg",
-        "url": "https://www.youtube.com/user/LevelUpTuts/videos"
-      },
-      {
-        "name": "Bocoup LLC",
-        "thumbnail": "https://i.ytimg.com/i/QUPI1PxfE4-bqwuI26I2HA/mq1.jpg?v=51103bcb",
-        "url": "https://www.youtube.com/user/BocoupLLC/videos"
-      },
-      {
-        "name": "CSS-Tricks",
-        "thumbnail": "https://yt3.ggpht.com/-h7mfjiwQFZo/AAAAAAAAAAI/AAAAAAAAAAA/f0Iw26gcn7w/s100-c-k-no-mo-rj-c0xffffff/photo.jpg",
-        "url": "https://www.youtube.com/user/realcsstricks/videos"
-      },
-      {
-        "name": "ReactCasts",
-        "thumbnail": "https://yt3.ggpht.com/-KA7RKBT2PHk/AAAAAAAAAAI/AAAAAAAAAAA/hsAkoB2JT4U/s100-c-k-no-mo-rj-c0xffffff/photo.jpg",
-        "url": "https://www.youtube.com/channel/UCZkjWyyLvzWeoVWEpRemrDQ/videos"
-      },
-      {
-        "name": "readthesource",
-        "thumbnail": "https://yt3.ggpht.com/-5pcsTtjX9lQ/AAAAAAAAAAI/AAAAAAAAAAA/386MrHky1_0/s100-c-k-no-mo-rj-c0xffffff/photo.jpg",
-        "url": "https://www.youtube.com/user/readthesource/videos"
       }
     ]
   }
