@@ -5,7 +5,7 @@ const Header = () => {
     <header className="header-main">
       <h1>devLinks</h1>
       <h2>Resources for Front-End Developers</h2>
-      <div>Curated by D.R.</div>
+      <div className="author">Curated by D.R.</div>
     </header>
   );
 };
