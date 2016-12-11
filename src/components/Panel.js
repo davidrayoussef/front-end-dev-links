@@ -7,7 +7,9 @@ const Panel = ({heading, name, icon, links}) => {
     <li className="panel">
       <header>
         <span className="panel-icon">
-          {icons[icon]}
+          <svg x="0px" y="0px" width="60px" height="60px" viewBox="0 0 60 60">
+            {icons[icon]}
+          </svg>
         </span>
         <span className="panel-header">
           <h2>{name}</h2>
