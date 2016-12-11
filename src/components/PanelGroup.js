@@ -1,7 +1,9 @@
 import React from 'react';
+import Header from './Header';
 import Panel from './Panel';
+import { data } from '../data/data';
 
-const PanelGroup = ({ data }) => {
+const PanelGroup = () => {
   let panels = data
     .map(panel => {
       return (
@@ -24,9 +26,12 @@ const PanelGroup = ({ data }) => {
     });
 
   return (
-    <ul className="panel-group">
-      {panels}
-    </ul>
+    <div>
+      <Header />
+      <ul className="panel-group">
+        {panels}
+      </ul>
+    </div>
   );
 };
 
