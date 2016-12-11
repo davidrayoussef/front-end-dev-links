@@ -4,7 +4,7 @@
   "description": "Lists of links and resources for front-end developers.",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --config webpack.config.dev.js",
+    "start": "webpack-dev-server --config webpack.config.dev.js --history-api-fallback",
     "build": ""
   },
   "author": "David Ra Youssef <davidradeveloper@gmail.com>",
@@ -19,6 +19,7 @@
     "html-webpack-plugin": "^2.24.1",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
+    "react-router": "^3.0.0",
     "style-loader": "^0.13.1",
     "webpack": "^1.13.3",
     "webpack-dev-server": "^1.16.2"
