@@ -183,6 +183,7 @@ export const data = [
     "name": "Email newsletters",
     "icon": "email",
     "heading": "Sign up to...",
+    "color": "149, 165, 166",
     "links": [
       {
         "name": "JavaScript Weekly",
