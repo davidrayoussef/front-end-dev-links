@@ -12,7 +12,7 @@ const App = () => {
       <Route path="/" component={PanelGroup}>
         <IndexRoute component={PanelGroup} />
       </Route>
-      <Route path={"grid"} component={Grid} />
+      <Route path={":id"} component={Grid} />
     </Router>
   );
 };
