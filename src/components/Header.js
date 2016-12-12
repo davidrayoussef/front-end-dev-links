@@ -1,15 +1,16 @@
 import React from 'react';
+import { Link } from 'react-router';
 import icons from './icons/IconModule';
 import { data } from '../data/data';
 
 const Header = () => {
-  let displayIcons = Object.keys(icons)
-    .map(icon =>
-      <a key={icon} href="#">
+  let displayIcons = data
+    .map(devLink =>
+      <Link key={devLink['name']} to={devLink['icon']}>
         <svg x="0px" y="0px" width="60px" height="60px" viewBox="0 0 60 60">
-          { icons[icon] }
+          { icons[devLink['icon']] }
         </svg>
-      </a>
+      </Link>
     );
 
   return (
