@@ -1,7 +1,7 @@
 import React from 'react';
 import icons from './icons/IconModule';
 
-const LinkItem = ({ name, thumbnail, defaultIcon, url }) => {
+const LinkItem = ({ name, thumbnail, description, defaultIcon, url }) => {
   return (
     <a href={url}>
       {
@@ -12,6 +12,7 @@ const LinkItem = ({ name, thumbnail, defaultIcon, url }) => {
           </svg>
       }
       <span className="title">{name}</span>
+      <span className="description">{description}</span>
     </a>
   );
 }
