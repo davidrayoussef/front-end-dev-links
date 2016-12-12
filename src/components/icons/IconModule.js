@@ -8,13 +8,13 @@ import TwitterIcon from './TwitterIcon';
 import EmailIcon from './EmailIcon';
 
 const icons = {
-  reddit: <RedditIcon />,
   podcast: <PodcastIcon />,
-  youtube: <YoutubeIcon />,
   codecourse: <CodeCourseIcon />,
+  youtube: <YoutubeIcon />,
+  reddit: <RedditIcon />,
   codingchallenge: <CodingChallengeIcon />,
-  twitter: <TwitterIcon />,
-  email: <EmailIcon />
+  email: <EmailIcon />,
+  twitter: <TwitterIcon />
 }
 
 export default icons;
