@@ -1,13 +1,22 @@
 import React from 'react';
 import Header from './Header';
-// import GridItem from './GridItem';
+import GridItem from './GridItem';
 import { data } from '../data/data';
 
-const Grid = () => {
+const Grid = ({ params }) => {
+  let { id } = params;
+
   let grid = data
+    .filter(devLinks => devLinks['icon'] === id)
     .map(gridItem => {
       return (
-        <li key={gridItem.name}>{gridItem.name}</li> // change this to anchor tags
+        <GridItem
+          key={gridItem.name}
+          heading={gridItem.heading}
+          name={gridItem.name}
+          icon={gridItem.icon}
+          links={gridItem.links}
+        />
       );
     })
 
