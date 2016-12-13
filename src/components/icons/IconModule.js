@@ -8,8 +8,8 @@ import TwitterIcon from './TwitterIcon';
 import EmailIcon from './EmailIcon';
 
 const icons = {
-  podcast: <PodcastIcon />,
   codecourse: <CodeCourseIcon />,
+  podcast: <PodcastIcon />,
   youtube: <YoutubeIcon />,
   reddit: <RedditIcon />,
   codingchallenge: <CodingChallengeIcon />,
