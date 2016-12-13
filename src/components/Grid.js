@@ -4,10 +4,8 @@ import GridItem from './GridItem';
 import { data } from '../data/data';
 
 const Grid = ({ params }) => {
-  let { id } = params;
-
   let grid = data
-    .filter(devLinks => devLinks['icon'] === id)
+    .filter(devLinks => devLinks['pathname'] === params.id)
     .map(gridItem => {
       return (
         <GridItem
