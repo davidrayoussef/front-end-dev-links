@@ -16,7 +16,9 @@ const Header = () => {
   return (
     <header className="header-main">
       <div className="title">
-        <h1>devLinks</h1>
+        <Link to={'/'}>
+          <h1>devLinks</h1>
+        </Link>
         <h2>Resources for Front-End Developers</h2>
         <div className="author">Curated by D.R.</div>
       </div>
