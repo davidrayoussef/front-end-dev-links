@@ -4,7 +4,7 @@ import icons from './icons/IconModule';
 
 const GridItem = ({heading, name, icon, links}) => {
   return (
-    <li className="grid-item">
+    <section>
       <header>
         <span className="grid-icon">
           <svg x="0px" y="0px" width="60px" height="60px" viewBox="0 0 60 60">
@@ -30,7 +30,7 @@ const GridItem = ({heading, name, icon, links}) => {
           );
         })}
       </ul>
-    </li>
+    </section>
   );
 };
 

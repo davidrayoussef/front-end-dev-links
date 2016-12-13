@@ -23,9 +23,9 @@ const Grid = ({ params }) => {
   return (
     <div>
       <Header />
-      <ul className="grid">
+      <main className="grid">
         {grid}
-      </ul>
+      </main>
     </div>
   );
 };
