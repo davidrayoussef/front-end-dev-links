@@ -7,7 +7,6 @@ body {
   font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 16px;
   width: 100%;
-  background: rgba(0,0,0,.075);
 }
 h1, h2, h3 {
   font-weight: normal;
@@ -17,6 +16,7 @@ ul {
 }
 .header-main {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   padding: 1.5em;
@@ -31,25 +31,14 @@ ul {
   top: .15em;
 }
 .title, .links, .share {
-  width: 33%;
+  width: 100%;
+}
+.title a {
+  text-decoration: none;
+  color: #222;
 }
 .links {
-  text-align: center;
-}
-.links a {
-  width: 60px;
-  height: 60px;
-  border: 3px solid rgba(0,0,0,.1);
-  display: inline-flex;
-  border-radius: 50%;
-  align-items: center;
-  justify-content: center;
-  margin: .5em;
-}
-.links svg {
-  width: 25px;
-  height: 25px;
-  opacity: .8;
+  display: none;
 }
 .share {
   text-align: right;
@@ -68,7 +57,7 @@ ul {
   background: rgba(255,255,255,.75);
   margin: 1%;
 }
-.panel header {
+.panel header, .grid header {
   display: flex;
   align-items: center;
   margin-left: 10px;
@@ -85,11 +74,12 @@ ul {
 }
 .links-container a {
   font-size: 16px;
+  height: 60px;
   color: #111;
   display: flex;
   align-items: center;
   text-decoration: none;
-  background: rgba(0,0,0,.025);
+  background: rgba(0,0,0,.035);
   margin-top: 3px;
   transition: background .2s ease;
 }
@@ -98,9 +88,11 @@ ul {
 }
 .links-container img {
   border: none;
+  border-radius: 50%;
   object-fit: cover;
-  height: 60px;
-  width: 60px;
+  height: 50px;
+  width: 50px;
+  margin: 0 5px;
 }
 .links-container svg {
   opacity: .3;
@@ -114,8 +106,66 @@ ul {
 .links-container .title {
   padding: 0 10px;
 }
+.grid header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.grid .links-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.grid .links-container a {
+  width: 32.75%;
+  height: 400px;
+  margin: .25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.grid .links-container img, .grid .links-container svg {
+  width: 60px;
+  height: 60px;
+  margin: 2em 0 1em;
+}
+.grid .title {
+  font-size: 2em;
+  width: 80%;
+  text-align: center;
+}
+.grid .description {
+  font-size: 1.15em;
+  padding: 1em 3em;
+  line-height: 1.5em;
+}
 
 @media (min-width: 700px) {
+  .header-main {
+    flex-direction: row;
+  }
+  .title, .links, .share {
+    width: 33%;
+  }
+  .links {
+    display: block;
+    text-align: center;
+  }
+  .links a {
+    width: 60px;
+    height: 60px;
+    border: 3px solid rgba(0,0,0,.1);
+    display: inline-flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    margin: .5em;
+  }
+  .links svg {
+    width: 25px;
+    height: 25px;
+    opacity: .8;
+  }
   .panel-group {
     display: flex;
     flex-direction: column;
