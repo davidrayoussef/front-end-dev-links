@@ -93,7 +93,7 @@ export const data = [
       {
         "name": "Bocoup LLC",
         "thumbnail": "https://i.ytimg.com/i/QUPI1PxfE4-bqwuI26I2HA/mq1.jpg?v=51103bcb",
-        "description": "Bocoup is an Open Web technology company by and for programmers. We create new Open Web technologies and help them become viable through consulting, training and community development. We research next generation browser technologies, implement software for clients, run events workshops and training and contribute to numerous open source projects.",
+        "description": "Bocoup is an Open Web technology company by and for programmers. We create new Open Web technologies and help them become viable through consulting, training and community development.",
         "url": "https://www.youtube.com/user/BocoupLLC/videos"
       },
       {
