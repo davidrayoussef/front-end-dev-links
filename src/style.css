@@ -45,6 +45,9 @@ ul {
 .share {
   display: none;
 }
+.panel-group, .grid {
+  animation: fadein .3s ease;
+}
 .panel-group {
   display: block;
   height: 100vw;
@@ -148,6 +151,14 @@ ul {
   color: rgba(0,0,0,.7);
   padding: 1em 3em;
   line-height: 1.5em;
+}
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @media (min-width: 1000px) {
