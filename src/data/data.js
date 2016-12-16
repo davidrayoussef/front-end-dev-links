@@ -3,7 +3,7 @@ export const data = [
     "name": "Code Courses",
     "icon": "codecourse",
     "heading": "Learn at...",
-    "color": "241, 196, 15",
+    "color": "237, 222, 73",
     "pathname": "codecourse",
     "links": [
       {
@@ -36,7 +36,7 @@ export const data = [
     "name": "Podcasts",
     "icon": "podcast",
     "heading": "Listen to...",
-    "color": "46, 204, 113",
+    "color": "40, 176, 93",
     "pathname": "podcast",
     "links": [
       {
