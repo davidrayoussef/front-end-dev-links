@@ -33,4 +33,11 @@ const Panel = ({heading, name, icon, links}) => {
   );
 };
 
+Panel.PropTypes = {
+  heading: React.propTypes.string.isRequired,
+  name: React.propTypes.string.isRequired,
+  icon: React.propTypes.string.isRequired,
+  links: React.propTypes.array.isRequired,
+}
+
 export default Panel;
