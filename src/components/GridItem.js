@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { PropTypes } from 'react';
 import LinkItem from './LinkItem';
 import icons from './icons/IconModule';
 
@@ -32,6 +32,13 @@ const GridItem = ({heading, name, icon, links}) => {
       </ul>
     </section>
   );
+};
+
+GridItem.propTypes = {
+  heading: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
+  icon: PropTypes.string.isRequired,
+  links: PropTypes.arrayOf(PropTypes.object).isRequired,
 };
 
 export default GridItem;

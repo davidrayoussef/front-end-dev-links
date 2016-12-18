@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { PropTypes } from 'react';
 import LinkItem from './LinkItem';
 import icons from './icons/IconModule';
 
@@ -33,11 +33,11 @@ const Panel = ({heading, name, icon, links}) => {
   );
 };
 
-Panel.PropTypes = {
-  heading: React.propTypes.string.isRequired,
-  name: React.propTypes.string.isRequired,
-  icon: React.propTypes.string.isRequired,
-  links: React.propTypes.array.isRequired,
-}
+Panel.propTypes = {
+  heading: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
+  icon: PropTypes.string.isRequired,
+  links: PropTypes.arrayOf(PropTypes.object).isRequired,
+};
 
 export default Panel;

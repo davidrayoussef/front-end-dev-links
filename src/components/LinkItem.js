@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { PropTypes } from 'react';
 import icons from './icons/IconModule';
 
 const LinkItem = ({ name, thumbnail, description, defaultIcon, url }) => {
@@ -16,5 +16,13 @@ const LinkItem = ({ name, thumbnail, description, defaultIcon, url }) => {
     </a>
   );
 }
+
+LinkItem.propTypes = {
+  name: PropTypes.string.isRequired,
+  thumbnail: PropTypes.string,
+  description: PropTypes.string,
+  defaultIcon: PropTypes.string,
+  url: PropTypes.string.isRequired
+};
 
 export default LinkItem;

@@ -1,4 +1,4 @@
-import React, { PropTypes } from 'react';
+import React from 'react';
 import Header from './Header';
 import Panel from './Panel';
 import { data } from '../data/data';
@@ -34,9 +34,5 @@ const PanelGroup = () => {
     </div>
   );
 };
-
-PanelGroup.PropTypes = {
-  
-}
 
 export default PanelGroup;
