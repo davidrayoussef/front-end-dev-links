@@ -12,6 +12,7 @@ const PanelGroup = () => {
           heading={panel.heading}
           name={panel.name}
           icon={panel.icon}
+          color={panel.color}
           links={panel.links}
         />
       );

@@ -7,7 +7,7 @@ const Header = () => {
   let displayIcons = data
     .map(devLink =>
       <Link key={devLink['name']} to={devLink['icon']}>
-        <svg x="0px" y="0px" width="60px" height="60px" viewBox="0 0 60 60">
+        <svg x="0px" y="0px" width="60px" height="60px" viewBox="0 0 60 60" style={{fill: `rgb(${devLink['color']})`}}>
           { icons[devLink['icon']] }
         </svg>
       </Link>

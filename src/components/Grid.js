@@ -13,6 +13,7 @@ const Grid = ({ params }) => {
           heading={gridItem.heading}
           name={gridItem.name}
           icon={gridItem.icon}
+          color={gridItem.color}
           links={gridItem.links}
         />
       );
