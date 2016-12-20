@@ -6,10 +6,12 @@ import { Router, Route, IndexRoute, browserHistory } from 'react-router';
 
 import './style.css';
 
+const rootPath = process.env.ENV === 'production' ? '/front-end-dev-links' : '/';
+
 const App = () => {
   return (
     <Router history={browserHistory}>
-      <Route path="/" component={PanelGroup}>
+      <Route path={rootPath} component={PanelGroup}>
         <IndexRoute component={PanelGroup} />
       </Route>
       <Route path={":id"} component={Grid} />

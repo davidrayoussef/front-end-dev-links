@@ -2,6 +2,8 @@ var webpack = require('webpack');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
+const ENV = process.env.NODE_ENV = process.env.ENV = 'production';
+
 module.exports = {
 	entry: './src/index.js',
 	output: {

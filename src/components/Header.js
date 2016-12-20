@@ -3,6 +3,8 @@ import { Link } from 'react-router';
 import icons from './icons/IconModule';
 import { data } from '../data/data';
 
+const rootPath = process.env.ENV === 'production' ? '/front-end-dev-links' : '/';
+
 const Header = () => {
   let displayIcons = data
     .map(devLink =>
@@ -16,7 +18,7 @@ const Header = () => {
   return (
     <header className="header-main">
       <div className="title">
-        <Link to={'/'}>
+        <Link to={rootPath}>
           <h1>devLinks</h1>
         </Link>
         <h2>Resources for Front-End Developers</h2>
