@@ -1,7 +1,7 @@
 {
   "name": "devlinks",
   "version": "1.0.0",
-  "description": "Lists of links and resources for front-end developers.",
+  "description": "Directory of resource links for front-end developers.",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --config webpack.config.dev.js --history-api-fallback",
