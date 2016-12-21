@@ -10,6 +10,7 @@ module.exports = {
 	devtool: 'eval',
 	entry: [
 		'webpack-dev-server/client?http://localhost:8080',
+    'webpack/hot/only-dev-server',
 		'./src/index.js'
 	],
 	output: {
@@ -32,7 +33,7 @@ module.exports = {
 			{
 				test: /\.js$/,
 				exclude: /node_modules/,
-				loaders: ['babel']
+				loaders: ['react-hot', 'babel']
 			},
       {
         test: /\.css$/,
@@ -42,10 +43,6 @@ module.exports = {
 	},
 	resolve: {
 		extensions: ['', '.js', '.jsx']
-	},
-	devServer: {
-		contentBase: './dist',
-		hot: true
 	},
 	plugins: [
 		new webpack.HotModuleReplacementPlugin(),
