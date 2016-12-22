@@ -17,7 +17,7 @@ const Grid = ({ params }) => {
           links={gridItem.links}
         />
       );
-    })
+    });
 
   return (
     <div>
