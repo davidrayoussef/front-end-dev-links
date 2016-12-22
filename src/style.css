@@ -187,7 +187,14 @@ ul {
     align-items: center;
     justify-content: center;
     margin: .5em;
-    transition: border-color .15s ease;
+    transition: all .15s ease;
+  }
+  .header-main .links a.active {
+    transform: scale(1.2);
+    border: 3px solid rgba(0,0,0,.125);
+  }
+  .header-main .links a.active svg {
+    opacity: 1;
   }
   .header-main .links svg {
     width: 25px;
