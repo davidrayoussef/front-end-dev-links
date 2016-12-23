@@ -67,7 +67,6 @@ ul {
   display: flex;
   align-items: center;
   margin-left: 10px;
-  margin-bottom: 20px;
 }
 .panel-header {
   margin-left: 20px;
@@ -116,6 +115,7 @@ ul {
   display: flex;
   flex-direction: column;
   text-align: center;
+  margin-bottom: 10px;
 }
 .grid h3 {
   font-size: 1.35em;
@@ -205,7 +205,7 @@ ul {
   .header-main .links a:hover, .header-main .links a:hover svg {
     border-color: rgba(0,0,0,.15);
     opacity: 1;
-}
+  }
   .panel-group {
     display: flex;
     flex-direction: column;
@@ -215,8 +215,11 @@ ul {
     width: 33.3%;
   }
   .panel {
-    padding: 1.75em;
+    padding: 1.75em 1.75em 0;
     max-width: none;
+  }
+  .panel header {
+    margin-bottom: 10px;
   }
   .grid .links-container {
     margin: 0 auto;
