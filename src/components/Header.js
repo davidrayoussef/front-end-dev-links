@@ -1,7 +1,8 @@
 import React from 'react';
-import { Link } from 'react-router';
+import Share from './Share';
 import icons from './icons/IconModule';
 import { data } from '../data/data';
+import { Link } from 'react-router';
 
 const rootPath = process.env.ENV === 'production' ? '/front-end-dev-links' : '/';
 
@@ -24,12 +25,10 @@ const Header = () => {
         <h2>Resources for Front-End Developers</h2>
         <div className="author">Curated by D.R.</div>
       </div>
-      <div className="links">
+      <nav className="nav-links">
         { displayIcons }
-      </div>
-      <div className="share">
-        Share on:
-      </div>
+      </nav>
+      <Share />
     </header>
   );
 };

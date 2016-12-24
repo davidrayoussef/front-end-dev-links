@@ -15,6 +15,6 @@ const icons = {
   codingchallenge: <CodingChallengeIcon />,
   email: <EmailIcon />,
   twitter: <TwitterIcon />
-}
+};
 
 export default icons;
