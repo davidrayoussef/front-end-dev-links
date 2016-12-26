@@ -194,7 +194,7 @@ ul {
   .header-main .nav-links svg {
     width: 25px;
     height: 25px;
-    opacity: .7;
+    opacity: .85;
     transition: opacity .15s ease;
   }
   .header-main .nav-links a:hover, .header-main .nav-links a:hover svg {
@@ -217,11 +217,24 @@ ul {
     width: 30px;
     height: 30px;
     margin: 0 10px;
+    transition: fill .15s ease;
   }
   .share span {
     font-size: .75em;
     color: rgba(0,0,0,.5);
     margin: 6px;
+  }
+  .share a:hover span {
+    color: rgba(0,0,0,.9);
+  }
+  .share .twitter:hover svg {
+    fill: rgba(85, 172, 238, .8);
+  }
+  .share .facebook:hover svg {
+    fill: rgba(59, 89, 152, .8);
+  }
+  .share .github:hover svg {
+    fill: rgba(64, 120, 192, .8);
   }
   .panel-group {
     display: flex;
