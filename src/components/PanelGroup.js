@@ -17,7 +17,8 @@ const PanelGroup = () => {
         />
       );
     })
-    // In order to get the Masonry effect, we need to wrap every 3 panels in divs
+    // In order to get the Masonry effect, we need to create columns.
+    // In this case, we'll put 3 panels in each column
     .map((v,i,a) => {
       if (i % 3 === 0) {
         return (
