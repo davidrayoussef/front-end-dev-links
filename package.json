@@ -1,5 +1,5 @@
 {
-  "name": "devlinks",
+  "name": "front-end-dev-links",
   "version": "1.0.0",
   "description": "Directory of resource links for front-end developers.",
   "main": "index.js",
@@ -7,6 +7,8 @@
     "start": "webpack-dev-server --config webpack.config.dev.js --history-api-fallback",
     "build": "webpack --config webpack.config.prod.js --progress"
   },
+  "repository": "davidrayoussef/front-end-dev-links",
+  "homepage": "https://github.com/davidrayoussef/front-end-dev-links",
   "author": "David Ra Youssef <davidradeveloper@gmail.com>",
   "license": "MIT",
   "devDependencies": {
@@ -24,5 +26,12 @@
     "style-loader": "^0.13.1",
     "webpack": "^1.13.3",
     "webpack-dev-server": "^1.16.2"
-  }
+  },
+  "keywords": [
+    "react",
+    "front-end",
+    "front-end devlopers",
+    "links",
+    "resources"
+  ]
 }
