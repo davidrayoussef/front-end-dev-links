@@ -1,5 +1,4 @@
 import React from 'react';
-import Header from './Header';
 import GridItem from './GridItem';
 import { data } from '../data/data';
 
@@ -20,11 +19,8 @@ const Grid = ({ params }) => {
     });
 
   return (
-    <div>
-      <Header />
-      <main className="grid">
-        {grid}
-      </main>
+    <div className="grid">
+      {grid}
     </div>
   );
 };

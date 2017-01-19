@@ -1,5 +1,4 @@
 import React from 'react';
-import Header from './Header';
 import Panel from './Panel';
 import { data } from '../data/data';
 
@@ -28,12 +27,9 @@ const PanelGroup = () => {
     });
 
   return (
-    <div>
-      <Header />
-      <ul className="panel-group">
-        {panels}
-      </ul>
-    </div>
+    <ul className="panel-group">
+      {panels}
+    </ul>
   );
 };
 
