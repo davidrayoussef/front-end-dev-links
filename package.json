@@ -2,7 +2,7 @@
   "name": "front-end-dev-links",
   "version": "1.0.0",
   "description": "Directory of resource links for front-end developers.",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "start": "webpack-dev-server --config webpack.config.dev.js --history-api-fallback",
     "build": "webpack --config webpack.config.prod.js --progress"

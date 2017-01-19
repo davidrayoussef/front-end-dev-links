@@ -5,7 +5,7 @@ var ExtractTextPlugin = require('extract-text-webpack-plugin');
 const ENV = process.env.NODE_ENV = process.env.ENV = 'production';
 
 module.exports = {
-	entry: './src/index.js',
+	entry: './src/app.js',
 	output: {
 		path: __dirname + '/dist',
 		filename: 'bundle.js'
