@@ -127,7 +127,7 @@ export const data = [
         "name": "Codewars",
         "thumbnail": "https://www.codewars.com/assets/logos/logo-square-red-big-dc2f35502ee2b60882a41327c529521c.png",
         "description": "Codewars is where developers achieve code mastery through challenge. Train on kata in the dojo and reach your highest potential.",
-        "url": "http://www.codewars.com/"
+        "url": "http://www.codewars.com/r/YSVPWA"
       },
       {
         "name": "Hackerrank",
