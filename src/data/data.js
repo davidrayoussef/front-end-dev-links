@@ -20,7 +20,7 @@ export const data = [
       },
       {
         "name": "egghead.io",
-        "thumbnail": "https://d1xwtr0qwr70yv.cloudfront.net/assets/elements/logo-mobile-0012236aa1a9766db6b0cc9705df19ec.svg",
+        "thumbnail": "https://d1xwtr0qwr70yv.cloudfront.net/assets/elements/logo-mobile-1bb94b0deb087c82166b22288000cad4.svg",
         "description": "Learn JavaScript for web development with AngularJS, React, D3, and other modern tools.",
         "url": "https://egghead.io/courses"
       },
@@ -92,7 +92,7 @@ export const data = [
       },
       {
         "name": "Bocoup LLC",
-        "thumbnail": "https://i.ytimg.com/i/QUPI1PxfE4-bqwuI26I2HA/mq1.jpg?v=51103bcb",
+        "thumbnail": "https://yt3.ggpht.com/-uT_xvfMGtDE/AAAAAAAAAAI/AAAAAAAAAAA/wrnxwQqnMFU/s288-c-k-no-mo-rj-c0xffffff/photo.jpg",
         "description": "Bocoup is an Open Web technology company by and for programmers. We create new Open Web technologies and help them become viable through consulting, training and community development.",
         "url": "https://www.youtube.com/user/BocoupLLC/videos"
       },
@@ -266,7 +266,7 @@ export const data = [
     "links": [
       {
         "name": "Dan Abramov",
-        "thumbnail": "https://pbs.twimg.com/profile_images/553711083064541184/9VsY9i09_bigger.jpeg",
+        "thumbnail": "https://pbs.twimg.com/profile_images/906557353549598720/oapgW_Fp_400x400.jpg",
         "description": "Co-authored Redux, Create React App, React Hot Loader, React DnD. Helping improve @reactjs. Personal opinions. #juniordevforlife",
         "url": "https://twitter.com/dan_abramov"
       },
@@ -290,13 +290,13 @@ export const data = [
       },
       {
         "name": "JavaScript Daily",
-        "thumbnail": "https://pbs.twimg.com/profile_images/710428065369890816/ZaHBODSJ_bigger.jpg",
+        "thumbnail": "https://pbs.twimg.com/profile_images/877477206418653184/W63ZlNa1_400x400.jpg",
         "description": "Daily JavaScript / JS community news, links and events, by @Cooperpress.",
         "url": "https://twitter.com/JavaScriptDaily"
       },
       {
         "name": "Front-End Daily",
-        "thumbnail": "https://pbs.twimg.com/profile_images/719462261375561729/_WOtWeTK_bigger.jpg",
+        "thumbnail": "https://pbs.twimg.com/profile_images/877476499770810368/O2Qf8KGo_400x400.jpg",
         "description": "HTML5, CSS, Web Platform, and browser tech links and news every day. Sister account to the http://frontendfocus.co  newsletter.",
         "url": "https://twitter.com/FrontEndDaily"
       },
@@ -332,7 +332,7 @@ export const data = [
       },
       {
         "name": "Wes Bos",
-        "thumbnail": "https://pbs.twimg.com/profile_images/623184294521929728/LUJ4qL8n_bigger.jpg",
+        "thumbnail": "https://pbs.twimg.com/profile_images/877525007185858562/7G9vGTca_400x400.jpg",
         "description": "Fullstack Dev ❯ JS⚛ CSS Node ❯ https://ES6.io ❯ http://ReactForBeginners.com ❯ http://JavaScript30.com ❯ Lead instructor @hackeryou ❯ Hot Tips",
         "url": "https://twitter.com/wesbos"
       },
