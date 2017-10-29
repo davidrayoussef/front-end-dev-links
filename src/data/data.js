@@ -278,7 +278,7 @@ export const data = [
       },
       {
         "name": "Addy Osmani",
-        "thumbnail": "https://pbs.twimg.com/profile_images/725034709533728770/ZVaJZ_tu_bigger.jpg",
+        "thumbnail": "https://pbs.twimg.com/profile_images/924051617812398080/Z9qBVjeo_400x400.jpg",
         "description": "Engineer at Google working on @GoogleChrome • Author • Creator of TodoMVC, @Yeoman, Material Design Lite, Critical • Husband",
         "url": "https://twitter.com/addyosmani"
       },

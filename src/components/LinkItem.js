@@ -2,11 +2,6 @@ import React, { PropTypes } from 'react';
 import icons from './icons/IconModule';
 
 const LinkItem = ({ name, thumbnail, description, defaultIcon, url }) => {
-  // Fix for broken images
-  let img = document.createElement('img');
-  img.src = thumbnail;
-  if (img.naturalHeight === 0) thumbnail = null;
-
   return (
     <a href={url}>
       {
