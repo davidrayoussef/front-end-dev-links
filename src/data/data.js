@@ -40,16 +40,22 @@ export const data = [
     "pathname": "podcast",
     "links": [
       {
-        "name": "JavaScript Jabber",
-        "thumbnail": null,
-        "description": "JavaScript Jabber is a weekly discussion about JavaScript, front-end development, community, careers, and frameworks.",
-        "url": "https://devchat.tv/js-jabber"
-      },
-      {
         "name": "Shop Talk Show",
         "thumbnail": "http://shoptalkshow.com/wp-content/uploads/2012/01/000-Nobody-125x125.jpg",
         "description": "An internet radio show about the internet starring Dave Rupert and Chris Coyier.",
         "url": "http://shoptalkshow.com"
+      },
+      {
+        "name": "Syntax.fm",
+        "thumbnail": "https://syntax.fm/static/logo.png",
+        "description": "A Tasty Treats Podcast for Web Developers starring Wes Bos and Scott Tolinski.",
+        "url": "https://syntax.fm"
+      },
+      {
+        "name": "JavaScript Jabber",
+        "thumbnail": null,
+        "description": "JavaScript Jabber is a weekly discussion about JavaScript, front-end development, community, careers, and frameworks.",
+        "url": "https://devchat.tv/js-jabber"
       },
       {
         "name": "Adventures in Angular",

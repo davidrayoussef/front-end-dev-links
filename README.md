@@ -12,8 +12,9 @@ Directory of resource links for front-end developers built with React.
 [Front End Masters](https://frontendmasters.com/)  
 
 ### Podcasts
+[Shop Talk Show](http://shoptalkshow.com)
+[Syntax.fm](https://syntax.fm)
 [JavaScript Jabber](https://devchat.tv/js-jabber)  
-[Shop Talk Show](http://shoptalkshow.com)  
 [Adventures in Angular](https://devchat.tv/adv-in-angular)  
 
 ### Youtube Channels

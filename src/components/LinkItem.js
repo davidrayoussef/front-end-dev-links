@@ -3,9 +3,9 @@ import icons from './icons/IconModule';
 
 const LinkItem = ({ name, thumbnail, description, defaultIcon, url }) => {
   // Temporary fix for broken images
-  // let img = new Image();
-  // img.src = thumbnail;
-  // if (img.naturalHeight === 0) thumbnail = null;
+  let img = new Image();
+  img.src = thumbnail;
+  if (img.naturalHeight === 0) thumbnail = null;
 
   return (
     <a href={url}>
