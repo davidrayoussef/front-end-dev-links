@@ -20,7 +20,7 @@ export const data = [
       },
       {
         "name": "egghead.io",
-        "thumbnail": "https://d1xwtr0qwr70yv.cloudfront.net/assets/elements/logo-mobile-1bb94b0deb087c82166b22288000cad4.svg",
+        "thumbnail": "https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/001/033/full/eggheadlogo.png",
         "description": "Learn JavaScript for web development with AngularJS, React, D3, and other modern tools.",
         "url": "https://egghead.io/courses"
       },
@@ -53,15 +53,21 @@ export const data = [
       },
       {
         "name": "JavaScript Jabber",
-        "thumbnail": null,
+        "thumbnail": "https://devchat.tv/wp-content/uploads/2016/04/javascript_jabber_thumb.jpg",
         "description": "JavaScript Jabber is a weekly discussion about JavaScript, front-end development, community, careers, and frameworks.",
         "url": "https://devchat.tv/js-jabber"
       },
       {
         "name": "Adventures in Angular",
-        "thumbnail": null,
+        "thumbnail": "https://devchat.tv/wp-content/uploads/2016/04/angular-thumb-1400x1400.jpg",
         "description": "Adventures in Angular is a weekly podcast dedicated to the Angular JavaScript framework and related technologies, tools, languages, and practices.",
         "url": "https://devchat.tv/adv-in-angular"
+      },
+      {
+        "name": "Front End Happy Hour",
+        "thumbnail": "http://frontendhappyhour.com/public/img/front-end-happy-hour.svg",
+        "description": "A podcast featuring a panel of Software Engineers from Netflix, Evernote, Atlassian & LinkedIn talking over drinks about all things Front End development.",
+        "url": "http://frontendhappyhour.com/"
       }
     ]
   },
@@ -119,6 +125,12 @@ export const data = [
         "thumbnail": "https://yt3.ggpht.com/-5pcsTtjX9lQ/AAAAAAAAAAI/AAAAAAAAAAA/386MrHky1_0/s100-c-k-no-mo-rj-c0xffffff/photo.jpg",
         "description": "Reading the source can be intimidating at first, but it's really an important skill for an advancing developer to acquire.",
         "url": "https://www.youtube.com/user/readthesource/videos"
+      },
+      {
+        "name": "Layout Land",
+        "thumbnail": "https://yt3.ggpht.com/-N-bDLJG6ks0/AAAAAAAAAAI/AAAAAAAAAAA/hgWriocCO8Y/s288-mo-c-c0xffffffff-rj-k-no/photo.jpg",
+        "description": "Learn what's now possible in graphic design on the web — layout, CSS Grid, and more. A series for designers and web developers.",
+        "url": "https://www.youtube.com/channel/UC7TizprGknbDalbHplROtag/videos"
       }
     ]
   },
@@ -143,13 +155,13 @@ export const data = [
       },
       {
         "name": "freeCodeCamp",
-        "thumbnail": null,
+        "thumbnail": "https://avatars0.githubusercontent.com/u/9892522?s=400&v=4",
         "description": "Learn to code and build projects for nonprofits. Build your full stack web development portfolio today.",
         "url": "https://www.freecodecamp.com/map"
       },
       {
         "name": "leetcode",
-        "thumbnail": null,
+        "thumbnail": "https://leetcode.com/static/images/LeetCode_logo_rvs.png",
         "description": "LeetCode Online Judge is a platform for preparing technical coding interviews and assessing your knowledge of data structures and algorithms.",
         "url": "https://leetcode.com"
       }
@@ -233,15 +245,9 @@ export const data = [
       },
       {
         "name": "React Status",
-        "thumbnail": null,
+        "thumbnail": "https://react.statuscode.com/images/reactkeith.png",
         "description": "A weekly roundup of the latest React and React Native links and tutorials.",
         "url": "http://react.statuscode.com/latest"
-      },
-      {
-        "name": "This Week in React",
-        "thumbnail": null,
-        "description": "A weekly publication sharing interesting new projects and discussions with active members in the React community.",
-        "url": "https://thisweekinreact.com/latest"
       },
       {
         "name": "Node Weekly",
@@ -260,6 +266,12 @@ export const data = [
         "thumbnail": null,
         "description": "The free, weekly newsletter of the best React.js news, articles, projects, and more.",
         "url": "http://reactjsnewsletter.com/"
+      },
+      {
+        "name": "Vue Radar",
+        "thumbnail": "https://d33wubrfki0l68.cloudfront.net/16f4602a661af58c639854334d2cb4e212df4ff9/63a3d/assets/img/logo2.png",
+        "description": "Stay on top of cutting edge Vuejs technologies.",
+        "url": "https://www.vuejsradar.com/"
       }
     ]
   },
@@ -278,7 +290,7 @@ export const data = [
       },
       {
         "name": "Addy Osmani",
-        "thumbnail": "https://pbs.twimg.com/profile_images/924051617812398080/Z9qBVjeo_400x400.jpg",
+        "thumbnail": "https://pbs.twimg.com/profile_images/944484726739312640/LaUJrclA_400x400.jpg",
         "description": "Engineer at Google working on @GoogleChrome • Author • Creator of TodoMVC, @Yeoman, Material Design Lite, Critical • Husband",
         "url": "https://twitter.com/addyosmani"
       },
