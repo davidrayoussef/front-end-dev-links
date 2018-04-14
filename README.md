@@ -18,6 +18,7 @@ Directory of resource links for front-end developers.
 [The Web Platform Podcast](https://thewebplatformpodcast.com/)  
 [egghead.io developer chats](https://egghead.simplecast.fm/)  
 [The React Podcast](https://changelog.com/reactpodcast)  
+[The freeCodeCamp Podcast](http://freecodecamp.libsyn.com/)  
 
 ### Youtube Channels
 [Wes Bos](https://www.youtube.com/user/wesbos/videos)  
