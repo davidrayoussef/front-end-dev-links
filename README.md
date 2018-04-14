@@ -15,6 +15,7 @@ Directory of resource links for front-end developers.
 [JavaScript Jabber](https://devchat.tv/js-jabber)  
 [Adventures in Angular](https://devchat.tv/adv-in-angular)  
 [Front End Happy Hour](http://frontendhappyhour.com/)  
+[The Web Platform Podcast](https://thewebplatformpodcast.com/)  
 
 ### Youtube Channels
 [Wes Bos](https://www.youtube.com/user/wesbos/videos)  
