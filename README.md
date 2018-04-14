@@ -17,6 +17,7 @@ Directory of resource links for front-end developers.
 [Front End Happy Hour](http://frontendhappyhour.com/)  
 [The Web Platform Podcast](https://thewebplatformpodcast.com/)  
 [egghead.io developer chats](https://egghead.simplecast.fm/)  
+[The React Podcast](https://changelog.com/reactpodcast)  
 
 ### Youtube Channels
 [Wes Bos](https://www.youtube.com/user/wesbos/videos)  
