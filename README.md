@@ -16,6 +16,7 @@ Directory of resource links for front-end developers.
 [Adventures in Angular](https://devchat.tv/adv-in-angular)  
 [Front End Happy Hour](http://frontendhappyhour.com/)  
 [The Web Platform Podcast](https://thewebplatformpodcast.com/)  
+[egghead.io developer chats](https://egghead.simplecast.fm/)  
 
 ### Youtube Channels
 [Wes Bos](https://www.youtube.com/user/wesbos/videos)  
