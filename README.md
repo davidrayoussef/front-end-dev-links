@@ -38,7 +38,7 @@ Directory of resource links for front-end developers.
 [freeCodeCamp](https://www.freecodecamp.com/map)  
 [leetcode](https://leetcode.com)  
 
-### Reddit Subreddits",
+### Reddit Subreddits,
 [/r/angularjs](https://www.reddit.com/r/angularjs/)  
 [/r/frontend](https://www.reddit.com/r/frontend/)  
 [/r/javascript](https://www.reddit.com/r/javascript/)  
@@ -56,6 +56,7 @@ Directory of resource links for front-end developers.
 [ng-newsletter](http://cur.ng-newsletter.com/)  
 [React Newsletter](http://reactjsnewsletter.com/)  
 [Vue Radar](https://www.vuejsradar.com/)  
+[Vue.js News](https://news.vuejs.org/)  
 
 ### Twitter Accounts
 [Dan Abramov](https://twitter.com/dan_abramov)  
