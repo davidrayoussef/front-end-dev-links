@@ -1,7 +1,5 @@
 # Front-End Developer Links
-Directory of resource links for front-end developers built with React.
-
-[View Live Site](http://davidra.co/front-end-dev-links/)
+Directory of resource links for front-end developers.
 
 ## Links
 
