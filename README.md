@@ -38,12 +38,13 @@ Directory of resource links for front-end developers.
 [freeCodeCamp](https://www.freecodecamp.com/map)  
 [leetcode](https://leetcode.com)  
 
-### Reddit Subreddits,
+### Reddit Subreddits
 [/r/angularjs](https://www.reddit.com/r/angularjs/)  
 [/r/frontend](https://www.reddit.com/r/frontend/)  
 [/r/javascript](https://www.reddit.com/r/javascript/)  
 [/r/learnjavascript](https://www.reddit.com/r/learnjavascript/)  
 [/r/reactjs](https://www.reddit.com/r/reactjs/)  
+[/r/vuejs](https://www.reddit.com/r/vuejs/)  
 [/r/web_design](https://www.reddit.com/r/web_design/)  
 [/r/webdev](https://www.reddit.com/r/webdev/)  
 
