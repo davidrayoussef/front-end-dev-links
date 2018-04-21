@@ -4,18 +4,21 @@ Directory of resource links for front-end developers.
 ## Links
 
 ### Code Courses
+Learn at...  
 [Code School](https://www.codeschool.com/)  
 [egghead.io](https://egghead.io/courses)  
 [Front End Masters](https://frontendmasters.com/)  
 [Pluralsight](https://www.pluralsight.com/)  
 
 ### Coding Challenges
+Practice at...  
 [Codewars](http://www.codewars.com/r/YSVPWA)  
 [freeCodeCamp](https://www.freecodecamp.com/map)  
 [Hackerrank](https://www.hackerrank.com/)  
 [leetcode](https://leetcode.com)  
 
 ### Email Newsletters
+Sign up to...  
 [Front End Focus](http://frontendfocus.co/)  
 [JavaScript Weekly](http://javascriptweekly.com/)  
 [Mobile Web Weekly](http://mobilewebweekly.co/)  
@@ -27,6 +30,7 @@ Directory of resource links for front-end developers.
 [Vue.js News](https://news.vuejs.org/)  
 
 ### Podcasts
+Listen to...  
 [Adventures in Angular](https://devchat.tv/adv-in-angular)  
 [egghead.io developer chats](https://egghead.simplecast.fm/)  
 [Front End Happy Hour](http://frontendhappyhour.com/)  
@@ -39,6 +43,7 @@ Directory of resource links for front-end developers.
 [The Web Platform Podcast](https://thewebplatformpodcast.com/)  
 
 ### Reddit Subreddits
+Subscribe to...  
 [/r/angularjs](https://www.reddit.com/r/angularjs/)  
 [/r/frontend](https://www.reddit.com/r/frontend/)  
 [/r/javascript](https://www.reddit.com/r/javascript/)  
@@ -49,6 +54,7 @@ Directory of resource links for front-end developers.
 [/r/webdev](https://www.reddit.com/r/webdev/)  
 
 ### Twitter Accounts
+Follow...  
 [Addy Osmani](https://twitter.com/addyosmani)  
 [Chrome DevTools](https://twitter.com/ChromeDevTools)  
 [CSS-Tricks](https://twitter.com/Real_CSS_Tricks)  
