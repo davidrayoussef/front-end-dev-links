@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import Thumbnail from './Thumbnail';
 import icons from './icons/IconModule';
 
 const LinkItem = ({ name, thumbnail, description, defaultIcon, url }) => {
@@ -7,7 +8,7 @@ const LinkItem = ({ name, thumbnail, description, defaultIcon, url }) => {
     <a href={url}>
       {
         thumbnail ?
-          <img src={thumbnail} /> :
+          <Thumbnail src={thumbnail} icon={defaultIcon} /> :
           <svg x="0px" y="0px" width="60px" height="60px" viewBox="0 0 60 60">
             {icons[defaultIcon]}
           </svg>
