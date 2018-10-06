@@ -79,4 +79,5 @@ Watch...
 [LevelUpTuts](https://www.youtube.com/user/LevelUpTuts/videos)  
 [ReactCasts](https://www.youtube.com/channel/UCZkjWyyLvzWeoVWEpRemrDQ/videos)  
 [readthesource](https://www.youtube.com/user/readthesource/videos)  
+[The Net Ninja](https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg/videos)  
 [Wes Bos](https://www.youtube.com/user/wesbos/videos)  
