@@ -36,6 +36,7 @@ Listen to...
 [Front End Happy Hour](http://frontendhappyhour.com/)  
 [JavaScript Jabber](https://devchat.tv/js-jabber)  
 [JS Party](https://changelog.com/jsparty)  
+[Modern Web: The Podcast](https://www.thisdot.co/modern-web)  
 [Shop Talk Show](http://shoptalkshow.com)  
 [Syntax.fm](https://syntax.fm)  
 [The freeCodeCamp Podcast](http://freecodecamp.libsyn.com/)  
