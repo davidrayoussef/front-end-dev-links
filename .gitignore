@@ -1,7 +1,4 @@
-# *
-# 
-# !.gitignore
-# !README.md
+*
 
-node_modules
-dist
+!.gitignore
+!README.md
